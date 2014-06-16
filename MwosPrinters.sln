@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MwosPrinters.Core", "MwosPrinters.Core\MwosPrinters.Core.csproj", "{C480727B-6713-4477-B109-08371E257062}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MwosPrinters.Infrastructure", "MwosPrinters.Infrastructure\MwosPrinters.Infrastructure.csproj", "{3916340E-05CF-4B13-886C-598F6F1CAF3C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C480727B-6713-4477-B109-08371E257062} = {C480727B-6713-4477-B109-08371E257062}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Test Projects", "Unit Test Projects", "{81449BA7-47CC-4D53-97AF-4ECAEC14E215}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MwosPrinters.UI", "MwosPrinters.UI\MwosPrinters.UI.csproj", "{285B36A9-427E-420D-8351-F629C85A9BF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MwosPrinters.Core.Tests", "Unit Tests\MwosPrinters.Core.Tests\MwosPrinters.Core.Tests.csproj", "{950D5762-9785-4A8B-A761-E647884A818C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{52AAEA9E-9F4D-4B9E-9986-299F04799BB9}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C480727B-6713-4477-B109-08371E257062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C480727B-6713-4477-B109-08371E257062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C480727B-6713-4477-B109-08371E257062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C480727B-6713-4477-B109-08371E257062}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3916340E-05CF-4B13-886C-598F6F1CAF3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3916340E-05CF-4B13-886C-598F6F1CAF3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3916340E-05CF-4B13-886C-598F6F1CAF3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3916340E-05CF-4B13-886C-598F6F1CAF3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{285B36A9-427E-420D-8351-F629C85A9BF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285B36A9-427E-420D-8351-F629C85A9BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285B36A9-427E-420D-8351-F629C85A9BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285B36A9-427E-420D-8351-F629C85A9BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{950D5762-9785-4A8B-A761-E647884A818C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{950D5762-9785-4A8B-A761-E647884A818C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{950D5762-9785-4A8B-A761-E647884A818C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{950D5762-9785-4A8B-A761-E647884A818C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{950D5762-9785-4A8B-A761-E647884A818C} = {81449BA7-47CC-4D53-97AF-4ECAEC14E215}
+	EndGlobalSection
+EndGlobal
