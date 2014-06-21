@@ -18,7 +18,7 @@ namespace MwosPrinters.Controllers
         }
         public string Index()
         {
-            return _messageGetter.GetTheMessage();
+            return "testmerge branch edit";
             
         }
 
